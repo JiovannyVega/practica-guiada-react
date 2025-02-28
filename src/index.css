@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+    --color-mint-500: oklch(0.72 0.11 178);
+    --color-sky-500: oklch(0.72 0.11 200);
+    --color-rose-500: oklch(0.72 0.11 350);
+}
+
+/* Puedes usar las clases de utilidad como bg-mint-500, text-sky-500, o fill-rose-500 en tu HTML */
