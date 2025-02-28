@@ -6,9 +6,9 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="grid grid-rows-[auto_1fr_auto] min-h-screen">
       <Header />
-      <main className="flex-1">
+      <main className="flex-grow flex flex-col">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
